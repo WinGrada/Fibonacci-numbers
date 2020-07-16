@@ -25,7 +25,7 @@ namespace Fibonacci_numbers
             int[] fibonacci = new int[sizeF];
 
             // Вызов метода для вычисления чисел фибоначи по заданому числу пользователя.
-            fibonacci = CalcilateFibonacciNumbers(sizeF, fibonacci);
+            fibonacci = CalculateFibonacciNumbers(sizeF, fibonacci);
 
             // Вывод результата полученых числе фибоначи.
             foreach (int resultF in fibonacci )
@@ -35,7 +35,7 @@ namespace Fibonacci_numbers
 
         }
 
-        static int [] CalcilateFibonacciNumbers(int sizeF, int [] fibonacci)
+        static int [] CalculateFibonacciNumbers(int sizeF, int [] fibonacci)
         {
             // Это первые числа фибоначи.
             fibonacci[0] = 0;
